@@ -5,7 +5,7 @@ namespace CipherRSA
 	public class Alphabet
 	{
 		
-		private static string russianAlphabet = "АБВГДЕËЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ ,.!?";
+		private static string russianAlphabet = "АБВГДЕËЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ ,.!?-";
 		public Alphabet()
 		{
 		}

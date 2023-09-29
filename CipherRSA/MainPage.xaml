@@ -15,10 +15,30 @@
                 FontSize="Header"
                 />
             <Entry
+                x:Name="EncryptMessage"
+                Placeholder="Здесь появится сообщение"
+                FontSize="Header"/>
+            <Entry
                 x:Name="Output"
                 Placeholder="Вывод"
                 FontSize="Header"
                 />
+            <Entry
+                x:Name="PNumber"
+                Placeholder="Число P"
+                FontSize="Header"/>
+            <Entry
+                x:Name="QNumber"
+                Placeholder="Число Q"
+                FontSize="Header"/>
+            <Entry
+                x:Name="EncryptKey"
+                Placeholder="Открытый ключ"
+                FontSize="Header"/>
+            <Entry
+                x:Name="DecryptKey"
+                Placeholder="Закрытый ключ"
+                FontSize="Header"/>
             <Button
                 x:Name="CounterBtn"
                 Text="Encrypt"
